@@ -1,0 +1,65 @@
+@use '../utils' as u;
+
+
+.head {
+        font-family: u.$monst;
+        font-size: u.rem(14);
+        letter-spacing: 8px;
+        color: var(--grayish-blue);
+        padding-bottom: u.rem(18);
+        
+    }
+
+.name {
+    font-family: u.$faun;
+    font-size: u.rem(32);
+    line-height: 1;
+
+}
+
+p {
+    font-family: u.$monst;
+    font-size: u.rem(14);
+    font-weight: 500;
+    color: var(--grayish-blue);
+    line-height: 1.6;
+    padding-top: u.rem(16);
+    padding-bottom: u.rem(16);
+
+    @include u.breakpoint-down(small){
+    padding-top: u.rem(10);
+    padding-bottom: u.rem(10);
+     }
+}
+
+.price {
+    font-family: u.$faun;
+    font-size: u.rem(32);
+    color: var(--dark-cyan);
+    padding-bottom: u.rem(16);
+    span {
+        color: var(--grayish-blue);
+        font-size: u.rem(14);
+        text-decoration: line-through;
+        vertical-align: super;
+        font-family: u.$monst;
+        padding-left: u.rem(12);
+    }
+}
+
+button {
+   color: var(--white);
+   font-family: u.$monst;
+   font-size: u.rem(16);
+
+}
+
+.attribution { 
+    font-size: u.rem(12); 
+    font-family: u.$monst;
+    text-align: center; 
+   
+    &a { 
+       color: var(--grayish); 
+    }
+ }
