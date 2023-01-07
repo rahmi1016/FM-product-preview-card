@@ -43,8 +43,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://rahmi1016.github.io/FM-product-preview-card/
+- Live Site URL: (https://rahmi1016.github.io/FM-product-preview-card/)
 
 ## My process
 
@@ -74,6 +74,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ## Author
 
 - Website - [Noor Rahmi](WIP)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/rahmi1016)
+- Frontend Mentor - https://www.frontendmentor.io/profile/rahmi1016
 
 ## Acknowledgments
