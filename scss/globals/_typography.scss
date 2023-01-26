@@ -2,19 +2,21 @@
 
 
 .head {
-        font-family: u.$monst;
-        font-size: u.rem(14);
-        letter-spacing: 8px;
-        color: var(--grayish-blue);
-        padding-bottom: u.rem(18);
-        
-    }
+    font-family: u.$monst;
+    font-size: u.rem(14);
+    letter-spacing: 8px;
+    color: var(--grayish-blue);
+    padding-bottom: u.rem(16);
+    text-transform: uppercase;
 
-.name {
+}
+
+h1 {
     font-family: u.$faun;
     font-size: u.rem(32);
     line-height: 1;
-
+    margin-block-start: u.rem(0);
+    margin-block-end: u.rem(0);
 }
 
 p {
@@ -26,40 +28,42 @@ p {
     padding-top: u.rem(16);
     padding-bottom: u.rem(16);
 
-    @include u.breakpoint-down(small){
-    padding-top: u.rem(10);
-    padding-bottom: u.rem(10);
-     }
+    @include u.breakpoint-down(small) {
+        padding-top: u.rem(10);
+        padding-bottom: u.rem(10);
+    }
 }
 
-.price {
+ins {
     font-family: u.$faun;
     font-size: u.rem(32);
     color: var(--dark-cyan);
-    padding-bottom: u.rem(16);
-    span {
-        color: var(--grayish-blue);
-        font-size: u.rem(14);
-        text-decoration: line-through;
-        vertical-align: super;
-        font-family: u.$monst;
-        padding-left: u.rem(12);
-    }
+    text-decoration: none;
 }
+
+del {
+    color: var(--grayish-blue);
+    font-size: u.rem(14);
+    text-decoration: line-through;
+    vertical-align: super;
+    font-family: u.$monst;
+    padding-left: u.rem(12);
+}
+
 
 button {
-   color: var(--white);
-   font-family: u.$monst;
-   font-size: u.rem(16);
+    color: var(--white);
+    font-family: u.$monst;
+    font-size: u.rem(16);
 
 }
 
-.attribution { 
-    font-size: u.rem(12); 
+.attribution {
+    font-size: u.rem(12);
     font-family: u.$monst;
-    text-align: center; 
-   
-    &a { 
-       color: var(--grayish); 
+    text-align: center;
+
+    &a {
+        color: var(--grayish);
     }
- }
+}

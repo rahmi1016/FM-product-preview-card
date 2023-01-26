@@ -45,6 +45,7 @@ img.mobile {
    padding: u.rem(32);
    background-color: var(--white);
    min-width: u.rem(300);
+   height: u.rem(450);
 
    @include u.breakpoint(mobile) {
       border-top-right-radius: u.rem(12);
@@ -52,6 +53,7 @@ img.mobile {
    }
 
    @include u.breakpoint-down(small){
+      height: u.rem(400);
       border-bottom-right-radius: u.rem(12);
       border-bottom-left-radius: u.rem(12);
    }
@@ -65,7 +67,7 @@ button {
    border-radius: u.rem(8);
    
    &:hover {
-      background-color: var(--dark-blue);
+      background-color: var(--very-dark-cyan);
    }
 
    &:active {
@@ -85,6 +87,10 @@ button {
 
 }
 
+.price {
+   padding: 0;
+
+}
 .attribution { 
    padding-top: u.rem(12);
   
@@ -92,6 +98,7 @@ button {
      width: u.rem(600);
    }
    @include u.breakpoint-down(small){
-      width: u.rem(350)
+      width: u.rem(350);
+     
    }
 }
