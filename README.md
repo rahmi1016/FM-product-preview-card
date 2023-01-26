@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://rahmi1016.github.io/FM-product-preview-card/]
-- Live Site URL: [https://rahmi1016.github.io/FM-product-preview-card/]
+- Solution URL: [] (https://rahmi1016.github.io/FM-product-preview-card/)
+- Live Site URL: [] (https://rahmi1016.github.io/FM-product-preview-card/)
 
 ## My process
 
